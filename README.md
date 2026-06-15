@@ -107,7 +107,7 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 ### Custom firmware & OS
 
 - [op1hacks](https://github.com/op1hacks) - Primary GitHub org for OP-1 firmware hacking: repacker, docs, firmware archives, and preset tools.
-- [op1repacker](https://github.com/op1hacks/op1repacker) - Unpacks, modifies, and repacks OP-1 firmware to unlock hidden iter synth, filter, and custom graphics mods. (dormant)
+- [op1repacker](https://github.com/op1hacks/op1repacker) - Unpacks, modifies, and repacks OP-1 firmware to unlock hidden iter synth, filter, and custom graphics mods.
 - [op1-fw-archive](https://github.com/op1hacks/op1-fw-archive) - Archive of (almost) all original OP-1 firmware versions for downgrade and research.
 - [op1-field-fw-archive](https://github.com/op1hacks/op1-field-fw-archive) - Archive of OP-1 field firmware releases with changelog notes, useful for downgrade and study. (archived)
 
@@ -153,7 +153,7 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 
 ### Hardware mods
 
-- [Pocket Operator MIDI Sync](https://hackaday.io/project/10869-pocket-operator-midi-sync) - Converts MIDI sync into the click-track audio pulse a PO needs to lock tempo.
+- [Pocket Operator MIDI Sync](https://hackaday.io/project/10869-pocket-operator-midi-sync) - Converts MIDI sync into the click-track audio pulse a PO needs to lock tempo. (dormant)
 - [USB MIDI for Pocket Operator](https://hackaday.io/project/28865-usb-midi-for-teenage-engineering-pocket-operator) - DIY board adding USB MIDI and USB host (keyboard/OP-1) via soldered taps. (dormant)
 - [Pocket Integrator](https://hackaday.io/project/186778-pocket-integrator) - Add-on board with tap/shake play, USB MIDI clock, battery, and SWD for firmware hacking. (dormant)
 
@@ -166,7 +166,7 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [OP-PatchStudio](https://github.com/joseph-holland/op-patchstudio) - Open-source web app to build drum and multisample presets for both OP-XY and OP-1.
 - [OP_Manager](https://github.com/adwuard/OP_Manager) - Raspberry Pi Zero handheld file manager for on-the-go backup and upload of OP-1/OP-Z patches.
 - [op-patch-util](https://github.com/AlexCharlton/op-patch-util) - Rust CLI to create and modify OP-1 and OP-Z drum patches, pitch, and metadata. (dormant)
-- [OP-1Z-Sample-Manager](https://github.com/romangarms/OP-1Z-Sample-Manager) - Cross-platform desktop app for managing OP-Z and OP-1 samples. (dormant)
+- [OP-1Z-Sample-Manager](https://github.com/romangarms/OP-1Z-Sample-Manager) - Cross-platform desktop app for managing OP-Z and OP-1 samples.
 - [mezmer](https://github.com/idroz/mezmer-app) - Live sound visualizer that works with both OP-Z and OP-XY. (dormant)
 
 ## Credits & inspiration
