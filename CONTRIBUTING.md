@@ -41,8 +41,8 @@ When in doubt, leave it out. A short, trustworthy list beats a long one.
 - URLs: **no trailing slash** (`https://op1.fun`, not `https://op1.fun/`).
 - **Status tags** - append one only when the project is *not* currently active, so readers know what
   they are getting:
-  - `(archived)` - read-only / explicitly archived.
-  - `(dormant)` - no meaningful activity in a long time, but still works.
+  - `archived` - read-only / explicitly archived.
+  - `dormant` - no meaningful activity in a long time, but still works.
 
   Active projects get **no** tag. Be honest - half of any niche hardware scene is dormant, and
   saying so is what keeps this list trustworthy.
@@ -50,7 +50,7 @@ When in doubt, leave it out. A short, trustworthy list beats a long one.
 ## Removing / fixing
 
 - Dead links are caught automatically by the weekly link-check workflow, which opens an issue.
-- If a link is dead, **mark it `(archived)` or fix it** rather than silently deleting - a known-dead
+- If a link is dead, **mark it `archived` or fix it** rather than silently deleting - a known-dead
   pointer is often still useful history. Remove only true duplicates or spam.
 
 ## License
