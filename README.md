@@ -1,4 +1,4 @@
-# te-re-engineering
+# awesome-te
 
 > A curated directory of reverse-engineering, custom firmware, tools, mods, and teardowns for Teenage Engineering gear.
 

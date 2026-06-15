@@ -1,4 +1,4 @@
-# Contributing to te-re-engineering
+# Contributing to awesome-te
 
 Thanks for helping keep this the best map of Teenage Engineering hacking work. The bar is
 **curate, don't collect**: every entry should be something you would actually recommend to another
