@@ -13,8 +13,9 @@ An entry must be:
 - **Real and reachable** - a public URL that works (repo, site, forum thread, hackaday project).
 - **Usable today** - you can actually get and run or read it right now. No announced-but-unreleased
   projects, no "coming soon," no private repos.
-- **Useful for hacking it** - custom firmware, reverse engineering, tools/software, hardware mods,
-  teardown/recovery, or a genuine community hub. Not marketing, not a shop listing.
+- **Useful for the gear** - custom firmware, reverse engineering, tools/software, hardware mods,
+  cases/accessories, teardown/recovery, or a community hub. Free or paid, open or commercial - just a
+  real, working thing for a real device, not a low-effort ad.
 
 When in doubt, leave it out. A short, trustworthy list beats a long one.
 

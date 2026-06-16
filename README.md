@@ -87,6 +87,7 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [sixthlaw/opxy-multisampler-preset-builder](https://github.com/sixthlaw/opxy-multisampler-preset-builder) - Browser tool to drag-drop audio into OP-XY multisampler preset folders with automatic pitch detection.
 - [stembounce](https://github.com/om3opr/stembounce) - Browser tool that MIDI-solos each OP-XY track, records USB audio, and packages per-track WAV stems.
 - [op-xy-drum-builder](https://github.com/niekert/op-xy-drum-builder) - Web app to assemble OP-XY drum racks from your own audio files.
+- [vjxy](https://vjxy.app) - MIDI-driven live visual instrument for the OP-XY: trigger video clips from notes and steer FX with CC.
 - [discepoli/op-xy-drum-preset-builder](https://github.com/discepoli/op-xy-drum-preset-builder) - Builds OP-XY drum sampler presets from a list of sample files. `dormant`
 - OP-XY preset/sample format converters: [SF2 in](https://github.com/charlesvestal/sf2-to-opxy), [SFZ out](https://github.com/legsmechanical/opxy-to-sfz), [DX7 SYSEX](https://github.com/cfurrow7/dx7-opxy), [NI Maschine](https://github.com/DimaDake/maschine-multisample-to-op-xy-converter), [Logic/GarageBand kits](https://github.com/inrainbws/logic_pro_drums_for_opxy).
 
@@ -161,6 +162,9 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [knockout](https://github.com/gabriel-roth/knockout) - Electron desktop sample manager that imports WAVs and exports .ppak projects and .pak backups.
 - [ep133-ppak](https://github.com/ZacharySBrown/ep133-ppak) - Python library and CLI to write valid .ppak sample-mode and song-mode project files from JSON.
 - [Cornerman for K.O. II](https://apps.apple.com/us/app/cornerman-for-k-o-ii/id6499280264) - iOS app that backs up the K.O. II offline, without TE's web tool.
+- [EP Toolkit](https://eptoolkit.ep133-to-daw.cc) - Native EP-133/1320/40 app: project export to DAWs, full sample management, CLAP processing, and device backups.
+- [AudioBatchConverter](https://github.com/JanSchulten/AudioBatchConverter) - Batch-prepares audio samples for the K.O. II and exports sample chains for the PO-33.
+- [EP-PatchStudio](https://ep-patch.studio) - Rust desktop app for EP-133/1320/40: device management, multisample editor, MIDI auto-sampler, and audio editing; pay-what-you-want.
 - [ep_133_sample_tool](https://github.com/garrettjwilke/ep_133_sample_tool) - Offline fork of the EP sample tool adding projects-only backup and raw SysEx debugging. `archived`
 
 ## Pocket Operators
@@ -213,8 +217,13 @@ Teenage Engineering ships deliberately closed, opinionated hardware. This list m
 - [OP-1Z-Sample-Manager](https://github.com/romangarms/OP-1Z-Sample-Manager) - Cross-platform desktop app for managing OP-Z and OP-1 samples.
 - [TEKit](https://github.com/ericlewis/TEKit) - Swift package controlling TE devices (OP-Z/TP-7/OB-4/OD-11) over BLE, USB, and WebSocket.
 - [field-remote](https://github.com/jwamin/field-remote) - SwiftUI iOS BLE MIDI remote for TE field gear, with control panels for TX-6 and TP-7.
+- [MTVP](https://mtvp.app) - Free iOS app that plays video locked to your OP synths' MIDI transport and timecode.
 - [op-patch-util](https://github.com/AlexCharlton/op-patch-util) - Rust CLI to create and modify OP-1 and OP-Z drum patches, pitch, and metadata. `dormant`
 - [mezmer](https://github.com/idroz/mezmer-app) - Live sound visualizer that works with both OP-Z and OP-XY. `dormant`
+
+### Hardware mods
+
+- [TEcases](https://tecases.com) - Handmade protective cases sold for OP-1 field, OP-XY, EP-series, TP-7, TX-6, Pocket Operators, and OB-4.
 
 ### Community
 
