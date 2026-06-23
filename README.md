@@ -2,8 +2,6 @@
 
 > A curated directory of reverse-engineering, custom firmware, tools, mods, and teardowns for Teenage Engineering gear.
 
-Teenage Engineering ships deliberately closed, opinionated hardware. This list maps the community that pries it open - custom firmware, reverse-engineered file formats and protocols, sample and patch tooling, hardware mods, and teardown/recovery notes - device by device.
-
 **Scope:** real, working, TE-specific projects only. Curate, don't collect - see [Contributing](CONTRIBUTING.md).
 
 **Status tags:** an entry is actively maintained unless tagged `dormant` (works, but quiet) or `archived` (read-only). Everything listed is usable today - we don't list announced-but-unreleased projects.
