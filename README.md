@@ -26,7 +26,7 @@
 - 🟢 [sp1-midi](https://github.com/ericlewis/sp1-midi) - Zephyr BSP/template that is the foundation for building custom SP-1 synths, MIDI controllers, or firmware.
 - 🟢 [sp1-tape-looper](https://github.com/chattock/sp1-tape-looper) - Four-track tape-machine looper firmware that ships a known-good recovery bin.
 - 🟢 [marisko](https://github.com/softmodded/marisko) - Community custom firmware plus a ready-to-use Zephyr board definition for the SP-1.
-- 🟢 [feldd](https://feldd.com) - Turns the SP-1 into a USB and TRS MIDI controller; map the faders and buttons to any CC or note from the browser, with per-control channels for a mixer.
+- 🟢 [feldd](https://feldd.com) - Turns the SP-1 into a USB, Bluetooth and TRS MIDI controller; map the faders and buttons to any CC or note from the browser, with per-control channels for a mixer.
 
 ### Reverse engineering & docs
 
