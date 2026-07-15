@@ -28,7 +28,7 @@ When in doubt, leave it out. A short, trustworthy list beats a long one.
 3. Add one line, keeping the section in a sensible order:
 
    ```
-   - [Name](https://example.com) - One sentence on why it matters, ending with a period.
+   - 🟢 [Name](https://example.com) - One sentence on why it matters, ending with a period.
    ```
 
 4. Update the Table of Contents if you added a new section.
@@ -36,22 +36,23 @@ When in doubt, leave it out. A short, trustworthy list beats a long one.
 
 ## Entry style (kept lint-clean)
 
-- One line per entry: `- [Name](url) - description.`
+- One line per entry: `- 🟢 [Name](url) - description.`
 - Description: a single sentence, sentence case, **ending with a period**, roughly 20 words or less,
   saying *why it matters* (not just what it is).
 - URLs: **no trailing slash** (`https://op1.fun`, not `https://op1.fun/`).
-- **Status tags** - append one only when the project is *not* currently active, so readers know what
-  they are getting:
-  - `archived` - read-only / explicitly archived.
-  - `dormant` - no meaningful activity in a long time, but still works.
+- **Status emoji** - start every entry with one status marker, right after the `- `, so readers can
+  scan the list at a glance:
+  - 🟢 **active** - maintained, or a finished/stable thing that still works as intended.
+  - 🟡 **dormant** - no meaningful activity in a long time, but still works.
+  - 🔴 **archived** - read-only / explicitly archived.
 
-  Active projects get **no** tag. Be honest - half of any niche hardware scene is dormant, and
-  saying so is what keeps this list trustworthy.
+  Be honest - half of any niche hardware scene is dormant, and saying so is what keeps this list
+  trustworthy. Sort each subsection 🟢 first.
 
 ## Removing / fixing
 
 - Dead links are caught automatically by the weekly link-check workflow, which opens an issue.
-- If a link is dead, **mark it `archived` or fix it** rather than silently deleting - a known-dead
+- If a link is dead, **mark it 🔴 archived or fix it** rather than silently deleting - a known-dead
   pointer is often still useful history. Remove only true duplicates or spam.
 
 ## License
