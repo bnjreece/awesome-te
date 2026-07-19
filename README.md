@@ -14,6 +14,7 @@
 - [OP-Z](#op-z)
 - [OP-1 / OP-1 field](#op-1--op-1-field)
 - [EP-133 K.O. II / EP-1320](#ep-133-ko-ii--ep-1320)
+- [EP-2350 Ting FX](#ep-2530-ting-fx)
 - [Pocket Operators](#pocket-operators)
 - [TX-6](#tx-6)
 - [OD-11 / Ortho Remote](#od-11--ortho-remote)
@@ -166,6 +167,12 @@
 - 🟢 [AudioBatchConverter](https://github.com/JanSchulten/AudioBatchConverter) - Batch-prepares audio samples for the K.O. II and exports sample chains for the PO-33.
 - 🟢 [EP-PatchStudio](https://ep-patch.studio) - Rust desktop app for EP-133/1320/40: device management, multisample editor, MIDI auto-sampler, and audio editing; pay-what-you-want.
 - 🔴 [ep_133_sample_tool](https://github.com/garrettjwilke/ep_133_sample_tool) - Offline fork of the EP sample tool adding projects-only backup and raw SysEx debugging.
+
+## EP-2350 Ting FX
+
+### Reverse engineering, Docs, & Examples
+
+- 🟢 [open-ting](https://github.com/au42/open-ting) - MicroPython and Binary dumps, docs, and drag-and-drop examples for advanced features out of the box.
 
 ## Pocket Operators
 
