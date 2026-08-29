@@ -153,6 +153,7 @@
 ### Reverse engineering & docs
 
 - 🟢 [KOII-tips-and-tricks](https://github.com/neilbaldwin/KOII-tips-and-tricks) - Community-compiled guide of K.O. II tips and tricks distilled from Elektronauts forum threads.
+- 🟢 [EP SysEx](https://github.com/kmorrill/ep-series-sysex) - Documents the shared EP-133/EP-40 SysEx protocol and project format, with JSON compilation and hardware tools.
 - 🟡 [ep_133_sysex_thingy](https://github.com/garrettjwilke/ep_133_sysex_thingy) - Reverse-engineered SysEx command library and docs to manage K.O. II samples without the official tool.
 
 ### Tools & software
