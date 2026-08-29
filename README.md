@@ -97,6 +97,7 @@
 ### Reverse engineering & docs
 
 - 🟢 [libopz](https://github.com/patriciogonzalezvivo/libopz) - Unofficial C++ library to parse .opz project files and talk to the OP-Z over MIDI/SysEx.
+- 🟢 [OP-Z SysEx](https://github.com/kmorrill/op-z-sysex) - Documents OP-Z app SysEx, StateSync, file transfer, and project formats, with cross-platform Python tooling.
 - 🟡 [z-po-project](https://github.com/lrk/z-po-project) - Reverse-engineering wiki documenting OP-Z internals, the closest thing to a protocol bible.
 
 ### Tools & software
