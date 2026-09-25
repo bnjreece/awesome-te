@@ -1,2 +1,3 @@
 # Sites that block automated checkers but load fine in a browser (verified by hand).
 ^https://www\.printables\.com/
+^https://studiofield\.app
