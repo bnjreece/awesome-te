@@ -42,8 +42,8 @@ When in doubt, leave it out. A short, trustworthy list beats a long one.
 - URLs: **no trailing slash** (`https://op1.fun`, not `https://op1.fun/`).
 - **Status emoji** - start every entry with one status marker, right after the `- `, so readers can
   scan the list at a glance:
-  - 🟢 **active** - maintained, or a finished/stable thing that still works as intended.
-  - 🟡 **dormant** - no meaningful activity in a long time, but still works.
+  - 🟢 **active** - a commit, release, or update in the last 12 months.
+  - 🟡 **dormant** - no commits, releases, or updates in 12+ months, but still works.
   - 🔴 **archived** - read-only / explicitly archived.
 
   Be honest - half of any niche hardware scene is dormant, and saying so is what keeps this list
@@ -52,8 +52,10 @@ When in doubt, leave it out. A short, trustworthy list beats a long one.
 ## Removing / fixing
 
 - Dead links are caught automatically by the weekly link-check workflow, which opens an issue.
-- If a link is dead, **mark it 🔴 archived or fix it** rather than silently deleting - a known-dead
-  pointer is often still useful history. Remove only true duplicates or spam.
+- If a link moved, **fix it**. If the project still resolves but is read-only or closed, **mark it
+  🔴 archived** - a known-dead pointer is often still useful history. If the project is gone entirely
+  (the URL 404s), remove the entry; git history keeps the record. Otherwise remove only true
+  duplicates or spam.
 
 ## License
 
