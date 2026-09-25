@@ -19,13 +19,18 @@ jobs:
   links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: lychee link check
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: "--no-progress --max-concurrency 4 --output ./lychee/out.md './**/*.md'"
+          # lychee-action v2 rejects --output in args; the report path goes in `output`.
+          args: >-
+            --no-progress --max-concurrency 4 --accept '200..=299,429'
+            --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36'
+            './**/*.md'
+          output: ./lychee/out.md
           fail: false
 
       - name: Open an issue on broken links
