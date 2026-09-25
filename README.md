@@ -4,7 +4,7 @@
 
 **Scope:** real, working, TE-specific projects only. Curate, don't collect - see [Contributing](CONTRIBUTING.md).
 
-**Status:** 🟢 active (updated in the last 12 months) · 🟡 dormant (works, but quiet for 12+ months) · 🔴 archived (read-only or gone). Everything listed is usable today - we don't list announced-but-unreleased projects.
+**Status:** 🟢 active (updated in the last 12 months) · 🟡 dormant (works, but quiet for 12+ months) · 🔴 archived (read-only / explicitly archived). Everything listed is usable today - we don't list announced-but-unreleased projects.
 
 ## Contents
 
@@ -70,7 +70,6 @@
 - 🟢 [TP-7-VoiceSync](https://github.com/armynante/TP-7-VoiceSync) - macOS menu bar app that auto-syncs, transcribes and files TP-7 voice memos to Apple Notes.
 - 🟢 [wavesync](https://github.com/pixelate/wavesync) - Ruby CLI that converts a music library to TP-7 spec and syncs it to the device over MTP.
 - 🟢 [tp7-station](https://github.com/krystalmaria/tp7-station) - Signed macOS app that auto-syncs the TP-7, transcribes memos on-device, and writes edited cue points back to the recorder.
-- 🟢 [tp7](https://github.com/totocaster/tp7) - Mac CLI that flips the TP-7 into MTP mode over MIDI, then lists, pulls, and pushes files without Field Kit.
 - 🟢 More TP-7 memo sync and control apps: [TP-7 Manager](https://github.com/joshualexanderl/TP-7-Manager), [TP7 Vibe Deck](https://github.com/PacoZhou1/tp7-vibe-deck) (TP-7 as a Mac control surface).
 - 🟡 [tp7-util](https://github.com/mellson/tp7-util) - macOS app to split and combine TP-7 multitrack polyWAV stems for DAW workflows.
 
@@ -98,6 +97,7 @@
 - 🟢 [XY Buddy](https://xybuddy.xyz) - Web utility that turns MIDI files into OP-XY projects and exports .xy patterns back to MIDI.
 - 🟢 [opxy-deck](https://github.com/kazuochi/opxy-deck) - Turns the OP-XY into a macro deck for AI coding agents, with a full map of its controller-mode MIDI output.
 - 🟢 OP-XY preset/sample format converters: [SF2 in](https://github.com/charlesvestal/sf2-to-opxy), [SFZ out](https://github.com/legsmechanical/opxy-to-sfz), [DX7 SYSEX](https://github.com/cfurrow7/dx7-opxy), [NI Maschine](https://github.com/DimaDake/maschine-multisample-to-op-xy-converter), [Logic/GarageBand kits](https://github.com/inrainbws/logic_pro_drums_for_opxy), [REX/sliced loops](https://github.com/g-lok/chirashi).
+- 🟡 [OP-PatchStudio](https://op-patch.studio) - Free legacy browser app for OP-XY drum and multisample presets, with OP-1 drum-preset import.
 - 🟡 [buba447/OPXY-Multisample-Tool](https://github.com/buba447/OPXY-Multisample-Tool) - Python scripts to record and pack WAV/AIFF samples into OP-XY multisample presets.
 - 🟡 [buba447 OP-XY Drum & Multisample Patch Generator](https://buba447.github.io/opxy-drum-tool) - Hosted web generator that builds OP-XY drum kits and multisample patches from audio files.
 - 🟡 [op-xy-drum-builder](https://github.com/niekert/op-xy-drum-builder) - Web app to assemble OP-XY drum racks from your own audio files.
@@ -189,8 +189,8 @@
 - 🟢 [EP-PatchStudio](https://ep-patch.studio) - Rust desktop app for EP-133/1320/40: device management, multisample editor, MIDI auto-sampler, and audio editing; pay-what-you-want.
 - 🟢 [Best Friend](https://epbf.app) - Companion app for EP-133, EP-40, and EP-1320 on iPhone, iPad, and Mac that shows scenes and bounces real per-pad stems from the hardware.
 - 🟢 More EP tools: [ko2-io](https://github.com/trusch/ko2-io) (Linux CLI and FUSE mount), [PunchKit](https://punchkit.dev) (iOS kit builder and backups), [EP Audio Editor](https://www.mediachance.com/epaudioeditor) (Windows, EP-40 multisamples).
+- 🟢 [mcp-koii](https://github.com/benjaminr/mcp-koii) - MCP server controlling the K.O. II over MIDI so an LLM can play notes and patterns.
 - 🟢 More K.O. II MCP servers: [ep133-mcp](https://github.com/wil-gerard/ep133-mcp) (samples, kits, .ppak projects), [kobox](https://github.com/yangyue1974/kobox) (pads and scales).
-- 🟡 [mcp-koii](https://github.com/benjaminr/mcp-koii) - MCP server controlling the K.O. II over MIDI so an LLM can play notes and patterns.
 - 🟡 [Cornerman for K.O. II](https://apps.apple.com/us/app/cornerman-for-k-o-ii/id6499280264) - iOS app that backs up the K.O. II offline, without TE's web tool.
 - 🔴 [ep_133_sample_tool](https://github.com/garrettjwilke/ep_133_sample_tool) - Offline fork of the EP sample tool adding projects-only backup and raw SysEx debugging.
 
@@ -293,7 +293,6 @@
 - 🟢 More sample and kit builders: [TRKLS](https://trkls.net) (OP-1, OP-1 field, OP-Z, EP-133), [Earthwire](https://earthwire.space) (OP-1 field kits from Freesound and Xeno-canto).
 - 🟢 [op-patch-util](https://github.com/AlexCharlton/op-patch-util) - Rust CLI to create and modify OP-1 and OP-Z drum patches, pitch, and metadata.
 - 🟡 [teoperator](https://github.com/schollz/teoperator) - Turns any audio file into OP-1 and OP-Z drum and synth patches, with a hosted version.
-- 🟡 [OP-PatchStudio](https://op-patch.studio) - Free browser app to build drum and multisample presets for OP-XY and OP-1, now legacy and no longer open source.
 - 🟡 [OP_Manager](https://github.com/adwuard/OP_Manager) - Raspberry Pi Zero handheld file manager for on-the-go backup and upload of OP-1/OP-Z patches.
 - 🟡 [mezmer](https://github.com/idroz/mezmer-app) - Live sound visualizer that works with both OP-Z and OP-XY.
 
