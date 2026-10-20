@@ -146,7 +146,7 @@
 
 ### Hardware mods
 
-- 🟢 [OP-Z-Replacement-Battery](https://github.com/abux77/OP-Z-Replacement-Battery) - Open frame and PCB that fit a standard PH2.0 LiPo, replacing the discontinued official OP-Z battery.
+- 🟢 [OP-Z-Replacement-Battery](https://github.com/abux77/OP-Z-Replacement-Battery) - Open frame and PCB that fit a standard PH2.0 LiPo, as an alternative to the official OP-Z battery.
 - 🟡 [OP-Z-Cube](https://github.com/MateSteinforth/OP-Z-Cube) - Arduino-driven LED light object that reacts live to the OP-Z.
 
 ### Community
