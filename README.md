@@ -27,8 +27,8 @@
 
 - 🟢 [sp1-midi](https://github.com/ericlewis/sp1-midi) - Zephyr BSP/template that is the foundation for building custom SP-1 synths, MIDI controllers, or firmware.
 - 🟢 [CircuitPython for SP-1](https://circuitpython.org/board/teenage_engineering_sp1) - Official CircuitPython build flashed from the bootloader, with an [Adafruit guide](https://learn.adafruit.com/hacking-the-teenage-engineering-sp-1); permanently erases stock firmware.
-- 🟢 [sp1-tape-looper](https://github.com/chattock/sp1-tape-looper) - Four-track tape-machine looper firmware, stereo with FX since v3, with a recovery bin and an [interactive guide](https://sp1-tape-looper.vercel.app).
-- 🟢 [Wakes](https://github.com/Worldwave/Wakes) - Beta firmware that makes the SP-1 a semimodular macro-synth from Mutable Instruments Plaits, Marbles and Yarns, with a full manual.
+- 🟢 [sp1-tape-looper](https://github.com/chattock/sp1-tape-looper) - Four-track tape-machine looper firmware, stereo with FX since v3, with a recovery bin and an [interactive guide](https://sp1-tape-looper.vercel.app); upgrading from v2 erases songs, so export first.
+- 🟢 [Wakes](https://github.com/Worldwave/Wakes) - Beta firmware that makes the SP-1 a semimodular macro-synth from Mutable Instruments Plaits, Marbles and Yarns, with a full manual; the author warns stock firmware cannot be restored after flashing.
 - 🟢 [Bonsai 8](https://github.com/AWD-tech/bonsai-8) - Early two-deck firmware that mixes eight stems from two songs with tempo following and a browser companion site.
 - 🟢 [marisko](https://github.com/jackiscool123123121/marisko) - Actively released community firmware, loaded with its rome CLI, continuing [softmodded's original](https://github.com/softmodded/marisko); still work in progress.
 - 🟢 [feldd](https://feldd.com) - Turns the SP-1 into a USB, Bluetooth and TRS MIDI controller; map the faders and buttons to any CC or note from the browser, with per-control channels for a mixer.
@@ -47,7 +47,7 @@
 - 🟢 [sp1-merge](https://github.com/softmodded/sp1-merge) - CLI tool to encode and merge Demucs stems into an SP-1-compatible WAV.
 - 🟢 [Stem Player Studio](https://github.com/humperdink13/TE-StemPlayer) - Desktop app to manage the SP-1, including a host-side Python firmware flasher.
 - 🟢 [SP-1 Utility](https://github.com/JT-Apps/SP-1-Utility) - Native Mac app that converts songs or four-stem folders into SP-1 WAVs and uploads them over USB-C, no Terminal or Python needed.
-- 🟢 [Katika Stem Player](https://github.com/BisonGuru/katika-stem-player) - Mac app that browses, renames and deletes tracks on a stock Stem Player over a documented USB protocol, no Kano cloud.
+- 🟢 [Katika Stem Player](https://github.com/BisonGuru/katika-stem-player) - Mac app that browses, renames and deletes tracks on a stock Stem Player (the SP-1 in its normal app mode) over a documented USB protocol, no Kano cloud.
 - 🟢 [solderless.engineering](https://solderless.engineering) - Web updater that loads custom stems and flashes firmware without opening the unit.
 - 🟢 [yzy-stemplayer-reverse](https://github.com/leabs/yzy-stemplayer-reverse) - PyUSB scripts that fuzz the Stem Player's USB vendor requests, DFU entry, and memory.
 - 🟢 More SP-1 stem loaders: [rome](https://github.com/jackiscool123123121/rome) (marisko's flashing and stem CLI, with macOS, Windows and Android apps), [sp1-loader](https://github.com/sh4tteredd/sp1-loader) (Python CLI and GUI), [SP1 Loader for Android](https://github.com/JewMoney10/sp1-loader) (native USB app where Chrome's Web Serial loader fails).
@@ -99,12 +99,12 @@
 ### Tools & software
 
 - 🟢 [kmorrill/op-xy-vibing](https://github.com/kmorrill/op-xy-vibing) - AI-assisted JSON loop editor that plays to OP-XY over USB-C MIDI and exports presets.
-- 🟢 [XY Workbench](https://tonicmidi.com) - Free browser editor built on xy-format that opens, edits, and re-exports .xy projects, with MIDI import.
+- 🟢 [XY Workbench](https://tonicmidi.com) - Free browser editor built on xy-format that opens, edits, and re-exports .xy projects in the browser.
 - 🟢 [XY Buddy](https://xybuddy.xyz) - Web utility that turns MIDI files into OP-XY projects and exports .xy patterns back to MIDI.
 - 🟢 [OP-XY Agent](https://github.com/NeoVand/op-xy-agent) - Browser replica of the OP-XY with an AI agent that answers from the manual and programs the device over USB MIDI.
 - 🟢 [sixthlaw/opxy-multisampler-preset-builder](https://github.com/sixthlaw/opxy-multisampler-preset-builder) - Browser tool to drag-drop audio into OP-XY multisampler preset folders with automatic pitch detection.
 - 🟢 [OP-XY Drum Utility](https://drumutility.yuugo.xyz) - Browser take on TE's Drum Utility that builds OP-XY kits with per-slot trim, reverse, bit depth and rate.
-- 🟢 [OP-XY-Sample-Extractor](https://github.com/buba447/OP-XY-Sample-Extractor) - Python scripts that read a .xy project and back up or restore every sample it uses over MTP.
+- 🟢 [OP-XY-Sample-Extractor](https://github.com/buba447/OP-XY-Sample-Extractor) - Python scripts that read a .xy project and back up or restore its user samples over MTP; factory samples are excluded.
 - 🟢 [ConvertWithMoss](https://github.com/git-moss/ConvertWithMoss) - Converts multisamples from Kontakt, SFZ, SF2, EXS24, Akai and dozens more into ready-to-copy OP-XY presets within device limits.
 - 🟢 OP-XY preset/sample format converters: [SF2 in](https://github.com/charlesvestal/sf2-to-opxy), [SFZ out](https://github.com/legsmechanical/opxy-to-sfz), [DX7 SYSEX](https://github.com/cfurrow7/dx7-opxy), [Elektron .elmulti](https://github.com/cfurrow7/opxy-converter), [NI Maschine](https://github.com/DimaDake/maschine-multisample-to-op-xy-converter), [Logic/GarageBand kits](https://github.com/inrainbws/logic_pro_drums_for_opxy), [REX/sliced loops](https://github.com/g-lok/chirashi).
 - 🟢 More OP-XY preset generators: [PolySampler](https://github.com/Calvin-Zikakis/polysampler) (VST3/CLAP plugin that auto-multisamples any MIDI instrument, build from source), [MI Multisampler](https://cfurrow7.github.io/rings-multisampler) (synthesizes presets from modal, Karplus-Strong and FM engines).
@@ -158,19 +158,19 @@
 
 ### Custom firmware & OS
 
-The 2026 custom-firmware wave below targets the **original OP-1 on OS 246** only; OP-1 field firmware is encrypted and has no public custom firmware.
+The 2026 custom-firmware wave below targets the **original OP-1 on OS 246** only; OP-1 field firmware is encrypted and has no public custom firmware. These are unofficial: they can brick the unit or leave saved sounds that stock firmware can't load, so back up first and follow each project's recovery steps.
 
 - 🟢 [op1r](https://github.com/pcppcp/op1r) - The first full custom firmware for the original OP-1: new engines, sequencers, sample editor and plugins, patched in-browser ([source and SDK](https://github.com/pcppcp/op1r-src)).
 - 🟢 [Hundekraft OP-1 Firmware Workshop](https://hundekraft.github.io/op1-workshop) - Browser configurator that builds custom original OP-1 firmware from picked synths, effects and plugins, then updates over USB MIDI.
 - 🟢 [maiko OS](https://maikopruett.com/op-1) - Free custom OS for the original OP-1 adding tape undo/redo, four tapes, new effects, and a fix for TE's flash bad-block bug; heads-up: it ships as a ready-to-flash file containing TE's firmware, with no source published.
-- 🟢 [op1-sdk](https://github.com/BertBrandstifter/op1-sdk) - MIT SDK and simulator for writing original OP-1 engines, effects and sequencers in C, with a six-engine op1plus image.
+- 🟢 [op1-sdk](https://github.com/BertBrandstifter/op1-sdk) - MIT SDK and simulator for writing original OP-1 engines, effects and sequencers in C, with a six-engine op1plus image whose STATION 1 samples are proprietary KORG content, not MIT.
 - 🟢 More original OP-1 mods: [Opus](https://opus-op1.pages.dev) (browser patcher: dimension and amp engines, scales, tape undo, clean back to stock), [op1-overdub](https://github.com/wsbuck/op1-overdub) (va, wavetable and grain engines, HOLD and CHORD modes), [Musica Obscura](https://github.com/ultralazr/op1-musica-obscura) (six history-of-sound modules, now shipping in op1r), [Note Quantization](https://github.com/stfj/OP-1-Note-Quantization-PublicGit) (scale quantize on shift+2, the wave's first patch).
 - 🟢 [op1hacks](https://github.com/op1hacks) - Primary GitHub org for OP-1 firmware hacking: repacker, docs, firmware archives, and preset tools.
 - 🟢 [op1repacker](https://github.com/op1hacks/op1repacker) - Unpacks, modifies, and repacks OP-1 firmware to unlock hidden iter synth, filter, and custom graphics mods.
 - 🟢 [op1REpackerGUI](https://github.com/epixjava/op1REpackerGUI) - Desktop GUI front-end for op1repacker, making OP-1 firmware mods accessible without the CLI.
-- 🟡 [op1-fw-archive](https://github.com/op1hacks/op1-fw-archive) - Archive of (almost) all original OP-1 firmware versions for downgrade and research.
+- 🟡 [op1-fw-archive](https://github.com/op1hacks/op1-fw-archive) - Unofficial mirror of (almost) all original OP-1 firmware versions for downgrade and research; prefer TE's official downloads where available.
 - 🟡 [op1-glitter](https://github.com/Nanobot567/op1-glitter) - Custom color themes for the original OP-1, patched into its firmware from a JSON file via op1repacker.
-- 🟡 [op1-field-fw-archive](https://github.com/op1hacks/op1-field-fw-archive) - Archive of OP-1 field firmware releases with changelog notes, useful for downgrade and study.
+- 🟡 [op1-field-fw-archive](https://github.com/op1hacks/op1-field-fw-archive) - Unofficial mirror of OP-1 field firmware releases with changelog notes, useful for downgrade and study; prefer TE's official downloads.
 
 ### Reverse engineering & docs
 
@@ -204,7 +204,7 @@ The 2026 custom-firmware wave below targets the **original OP-1 on OS 246** only
 
 - 🟢 [OP-1 te-boot recovery over JTAG](https://github.com/jheidecker/OP-1-te-boot-recovery-over-JTAG) - Step-by-step JTAG NAND dump and repair that revives an original OP-1 whose te-boot no longer starts, no chip rework.
 - 🟡 [iFixit OP-1 repair guides](https://www.ifixit.com/Device/Teenage_Engineering_OP-1) - Twelve step-by-step teardown/repair guides: battery, display, keyboard, connector board, flex cable.
-- 🟡 [op1dumps](https://github.com/Tolsi/op1dumps) - Flash/OTP dumps, schematic, and bootloader for replacing a dead OP-1 processor or flash chip.
+- 🟡 [op1dumps](https://github.com/Tolsi/op1dumps) - Unofficial flash/OTP dumps, schematic, and bootloader for replacing a dead OP-1 processor or flash chip.
 
 ### Community
 
@@ -366,7 +366,7 @@ The 2026 custom-firmware wave below targets the **original OP-1 on OS 246** only
 
 ### Teardown, flashing & recovery
 
-- 🟢 [dl-op-firmware-archive](https://github.com/workeffortwaste/dl-op-firmware-archive) - Fetches and checksums older OP-1 field, OP-XY, TX-6 and TP-7 firmware from the Internet Archive as TE replaces downloads.
+- 🟢 [dl-op-firmware-archive](https://github.com/workeffortwaste/dl-op-firmware-archive) - Script that fetches and checksums older OP-1 field, OP-XY, TX-6 and TP-7 firmware from TE's own URLs via the Internet Archive; unofficial, prefer TE's current downloads.
 
 ### Community
 
