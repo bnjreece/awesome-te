@@ -26,7 +26,7 @@
 ### Custom firmware & OS
 
 - 🟢 [sp1-midi](https://github.com/ericlewis/sp1-midi) - Zephyr BSP/template that is the foundation for building custom SP-1 synths, MIDI controllers, or firmware.
-- 🟢 [CircuitPython for SP-1](https://circuitpython.org/board/teenage_engineering_sp1) - Official CircuitPython build flashed from the bootloader, with an [Adafruit guide](https://learn.adafruit.com/hacking-the-teenage-engineering-sp-1); permanently erases stock firmware.
+- 🟢 [CircuitPython for SP-1](https://circuitpython.org/board/teenage_engineering_sp1) - Official CircuitPython build flashed from the bootloader, with an [Adafruit guide](https://learn.adafruit.com/hacking-the-teenage-engineering-sp-1); permanently erases stock firmware and all stored songs, so back up first.
 - 🟢 [sp1-tape-looper](https://github.com/chattock/sp1-tape-looper) - Four-track tape-machine looper firmware, stereo with FX since v3, with a recovery bin and an [interactive guide](https://sp1-tape-looper.vercel.app); upgrading from v2 erases songs, so export first.
 - 🟢 [Wakes](https://github.com/Worldwave/Wakes) - Beta firmware that makes the SP-1 a semimodular macro-synth from Mutable Instruments Plaits, Marbles and Yarns, with a full manual; the author warns stock firmware cannot be restored after flashing.
 - 🟢 [Bonsai 8](https://github.com/AWD-tech/bonsai-8) - Early two-deck firmware that mixes eight stems from two songs with tempo following and a browser companion site.
@@ -47,7 +47,7 @@
 - 🟢 [sp1-merge](https://github.com/softmodded/sp1-merge) - CLI tool to encode and merge Demucs stems into an SP-1-compatible WAV.
 - 🟢 [Stem Player Studio](https://github.com/humperdink13/TE-StemPlayer) - Desktop app to manage the SP-1, including a host-side Python firmware flasher.
 - 🟢 [SP-1 Utility](https://github.com/JT-Apps/SP-1-Utility) - Native Mac app that converts songs or four-stem folders into SP-1 WAVs and uploads them over USB-C, no Terminal or Python needed.
-- 🟢 [Katika Stem Player](https://github.com/BisonGuru/katika-stem-player) - Mac app that browses, renames and deletes tracks on a stock Stem Player (the SP-1 in its normal app mode) over a documented USB protocol, no Kano cloud.
+- 🟢 [Katika Stem Player](https://github.com/BisonGuru/katika-stem-player) - Mac app that browses, renames and deletes tracks on a stock Stem Player over a documented USB protocol; writes need a Kano account login.
 - 🟢 [solderless.engineering](https://solderless.engineering) - Web updater that loads custom stems and flashes firmware without opening the unit.
 - 🟢 [yzy-stemplayer-reverse](https://github.com/leabs/yzy-stemplayer-reverse) - PyUSB scripts that fuzz the Stem Player's USB vendor requests, DFU entry, and memory.
 - 🟢 More SP-1 stem loaders: [rome](https://github.com/jackiscool123123121/rome) (marisko's flashing and stem CLI, with macOS, Windows and Android apps), [sp1-loader](https://github.com/sh4tteredd/sp1-loader) (Python CLI and GUI), [SP1 Loader for Android](https://github.com/JewMoney10/sp1-loader) (native USB app where Chrome's Web Serial loader fails).
@@ -105,7 +105,7 @@
 - 🟢 [sixthlaw/opxy-multisampler-preset-builder](https://github.com/sixthlaw/opxy-multisampler-preset-builder) - Browser tool to drag-drop audio into OP-XY multisampler preset folders with automatic pitch detection.
 - 🟢 [OP-XY Drum Utility](https://drumutility.yuugo.xyz) - Browser take on TE's Drum Utility that builds OP-XY kits with per-slot trim, reverse, bit depth and rate.
 - 🟢 [OP-XY-Sample-Extractor](https://github.com/buba447/OP-XY-Sample-Extractor) - Python scripts that read a .xy project and back up or restore its user samples over MTP; factory samples are excluded.
-- 🟢 [ConvertWithMoss](https://github.com/git-moss/ConvertWithMoss) - Converts multisamples from Kontakt, SFZ, SF2, EXS24, Akai and dozens more into ready-to-copy OP-XY presets within device limits.
+- 🟢 [ConvertWithMoss](https://github.com/git-moss/ConvertWithMoss) - Converts multisamples from Kontakt, SFZ, SF2, EXS24, Akai and dozens more into OP-XY preset folders, warning about samples over the device's length limit.
 - 🟢 OP-XY preset/sample format converters: [SF2 in](https://github.com/charlesvestal/sf2-to-opxy), [SFZ out](https://github.com/legsmechanical/opxy-to-sfz), [DX7 SYSEX](https://github.com/cfurrow7/dx7-opxy), [Elektron .elmulti](https://github.com/cfurrow7/opxy-converter), [NI Maschine](https://github.com/DimaDake/maschine-multisample-to-op-xy-converter), [Logic/GarageBand kits](https://github.com/inrainbws/logic_pro_drums_for_opxy), [REX/sliced loops](https://github.com/g-lok/chirashi).
 - 🟢 More OP-XY preset generators: [PolySampler](https://github.com/Calvin-Zikakis/polysampler) (VST3/CLAP plugin that auto-multisamples any MIDI instrument, build from source), [MI Multisampler](https://cfurrow7.github.io/rings-multisampler) (synthesizes presets from modal, Karplus-Strong and FM engines).
 - 🟢 [stembounce](https://github.com/om3opr/stembounce) - Browser tool that MIDI-solos each OP-XY track and records per-track WAV stems, for firmware before 1.2's native multichannel USB audio.
