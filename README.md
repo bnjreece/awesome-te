@@ -315,6 +315,7 @@ The 2026 custom-firmware wave below targets the **original OP-1 on OS 246** only
 ### Tools & software
 
 - 🟢 [tx6 (web remote)](https://github.com/psimyn/tx6) - Live web PWA remote controlling the TX-6 over Web MIDI (BLE and USB), with an LFO engine.
+- 🟢 [tx-mac](https://github.com/SanJeong/tx-mac) - Turns the TX-6 into a macOS app mixer with per-app volume, EQ, and separate main and monitor outputs.
 
 ## OD-11 / Ortho Remote
 
