@@ -278,6 +278,7 @@ The 2026 custom-firmware wave below targets the **original OP-1 on OS 246** only
 
 - 🟢 [libpo32](https://github.com/ericlewis/libpo32) - Portable C99 reimplementation of the PO-32 Tonic's acoustic modem and drum voice, so software can build and send patches and patterns.
 - 🟢 [po-backup-decode](https://github.com/danielpradilla/po-backup-decode) - Python decoder for PO-33 transfer WAVs that pulls out samples, patterns and BPM, with the modem protocol documented.
+- 🟡 [OP-Forums: PO hacks thread](https://op-forums.com/t/po-hacks/2092) - Hardware specs and modding.
 
 ### Tools & software
 
@@ -289,6 +290,8 @@ The 2026 custom-firmware wave below targets the **original OP-1 on OS 246** only
 - 🟡 [po-33](https://github.com/rileyjshaw/po-33) - Clean browser drag-and-drop loader that records sample banks into the PO-33 K.O.
 - 🟡 [PocketSync](https://github.com/chr15m/PocketSync) - Phone and web app that outputs the Pocket Operator sync pulse, no extra hardware needed.
 - 🟡 [Pocket Operator simulator](https://github.com/franeklubi/pocket-operator-simulator) - In-browser JavaScript emulation of the PO-20 drum machine with a working sequencer.
+- 🟡 [PO-33 Drum Layer Slicer](https://po33.ulfster.com) Web utility to slice and upload samples. 
+
 
 ### Hardware mods
 
